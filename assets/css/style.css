@@ -27,6 +27,7 @@ h1 {
 h2 {
     font-size: 20px;
     font-family: 'Vollkorn', serif;
+    margin-top: 0px auto;
 }
 
 
@@ -66,7 +67,7 @@ p {
     z-index: -1;   
   }
 
-.button2 {
+#button2 {
     display: inline-block;
     padding: 0.35em 1.2em;
     border: 0.1em solid #FFFFFF;
@@ -74,13 +75,13 @@ p {
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: 'Vollkorn SC', serif;
     font-weight:300;
     color: #FFFFFF;
     text-align: center;
     transition: all 0.2s;
 }
-    .button2:hover{
+    #button2:hover{
         color:#000000;
         background-color:#FFFFFF;
     }
@@ -91,6 +92,15 @@ p {
     padding: 20px;
     text-align: center
     /* position: relative; */
+}
+
+#timer {
+    width: auto;
+    height: 100;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    color: #e7ae34;
+
 }
 
 
