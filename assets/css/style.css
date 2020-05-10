@@ -65,6 +65,7 @@ p {
     position: absolute;
     z-index: -1;   
   }
+
 .button2 {
     display: inline-block;
     padding: 0.35em 1.2em;
@@ -86,8 +87,30 @@ p {
 
 #trivia-box {
     width: auto;
-    position: absolute;
-    bottom: 0;
-    
+    height: 400px;
+    padding: 20px;
+    text-align: center
+    /* position: relative; */
 }
 
+
+#query-box {
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#buttons-box {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* display: inline-block; */
+    /* left: 50% */
+}
