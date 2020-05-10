@@ -11,7 +11,7 @@ body {
     /* font-family: 'Vollkorn', serif; regular*/
     /* font-family: 'Vollkorn SC', serif; regular */
     background-image: url("../images/platform-975-a-bg.jpg");
-    background-size: auto 100%;
+    background-size: 100% auto;
 }
 
 
@@ -42,7 +42,7 @@ p {
     margin: 50px auto 0;
 }
 
-#trivia-box {
+#div-box {
 
     width: auto;
     height: 700px;
@@ -54,7 +54,7 @@ p {
     position: relative;
 }
 
-#trivia-box::after {
+#div-box::after {
     content: "";
     background-color: slategray;
     opacity: 0.75;
@@ -65,4 +65,29 @@ p {
     position: absolute;
     z-index: -1;   
   }
+.button2 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+    .button2:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+
+#trivia-box {
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    
+}
 
